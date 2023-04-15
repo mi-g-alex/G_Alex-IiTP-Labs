@@ -1,0 +1,14 @@
+add_executable(Task2
+        Task2/Task2.cpp
+        Task2/functions/addData.cpp
+        Task2/functions/deleteData.cpp
+        Task2/functions/exportDataToFile.cpp
+        Task2/functions/importDataFromFile.cpp
+        Task2/functions/selectTODO.cpp
+        Task2/functions/sortData.cpp
+        Task2/functions/viewData.cpp
+        Task2/functions/resizeArray.cpp
+        Task2/checkInput/checkInput.cpp
+        Task2/checkInput/checkInput.h
+        Task2/functions.h
+        )
