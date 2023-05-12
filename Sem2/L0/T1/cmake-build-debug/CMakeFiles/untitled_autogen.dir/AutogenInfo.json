@@ -1,0 +1,205 @@
+{
+	"BUILD_DIR" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/untitled_autogen",
+	"CMAKE_BINARY_DIR" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1",
+	"CMAKE_EXECUTABLE" : "/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/CMakeLists.txt",
+		"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake",
+		"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1",
+	"DEP_FILE" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/untitled_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "untitled_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/carWindow/carWindow.h",
+			"MU",
+			"XDGWT7W5KO/moc_carWindow.cpp",
+			null
+		],
+		[
+			"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/figureWindow/figureWindow.h",
+			"MU",
+			"DXYUIYF5UQ/moc_figureWindow.cpp",
+			null
+		],
+		[
+			"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/mainWindow/mainWindow.h",
+			"MU",
+			"OVELE2FJD2/moc_mainWindow.cpp",
+			null
+		],
+		[
+			"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/moveRect/moveRect.h",
+			"MU",
+			"F72DXXYW5X/moc_moveRect.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/untitled_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/untitled_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/usr/include/qt",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/qt/QtGui",
+		"/usr/include/qt/QtWidgets",
+		"/usr/include/c++/12.2.1",
+		"/usr/include/c++/12.2.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.2.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/g_alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/untitled_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/untitled_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/untitled_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/carWindow/carWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/figureWindow/figureWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/mainWindow/mainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/moveRect/moveRect.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

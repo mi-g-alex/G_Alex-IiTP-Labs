@@ -1,0 +1,5 @@
+/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L6/T3/cmake-build-debug/CMakeFiles/T3.dir
+/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L6/T3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L6/T3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L6/T3/cmake-build-debug/CMakeFiles/T3_autogen_timestamp_deps.dir
+/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L6/T3/cmake-build-debug/CMakeFiles/T3_autogen.dir
