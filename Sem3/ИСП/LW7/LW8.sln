@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LW8", "LW8\LW8.csproj", "{40226616-D849-416E-B444-7FD0C9249E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LW8_Gorgun", "LW8_Gorgun\LW8_Gorgun.csproj", "{6AAA715B-9621-4CEC-9F6D-3AE46E8E6659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40226616-D849-416E-B444-7FD0C9249E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40226616-D849-416E-B444-7FD0C9249E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40226616-D849-416E-B444-7FD0C9249E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40226616-D849-416E-B444-7FD0C9249E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAA715B-9621-4CEC-9F6D-3AE46E8E6659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAA715B-9621-4CEC-9F6D-3AE46E8E6659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAA715B-9621-4CEC-9F6D-3AE46E8E6659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAA715B-9621-4CEC-9F6D-3AE46E8E6659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

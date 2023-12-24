@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\Painter\Painter.csproj" />
+        <ProjectReference Include="..\StreamService\StreamService.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LoremNET" Version="2.0.0" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FIleService/1.0.0": {
+        "dependencies": {
+          "LW6": "1.0.0"
+        },
+        "runtime": {
+          "FIleService.dll": {}
+        }
+      },
+      "LW6/1.0.0": {
+        "runtime": {
+          "LW6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FIleService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LW6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

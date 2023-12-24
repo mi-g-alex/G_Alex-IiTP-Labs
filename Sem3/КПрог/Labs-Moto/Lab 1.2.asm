@@ -1,0 +1,5 @@
+ORG $8000
+ LDAA $00
+ LDAB $01
+ SBA
+ INCA

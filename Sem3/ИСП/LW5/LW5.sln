@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LW5", "LW5\LW5.csproj", "{B5AB2E35-3BA7-4D83-BFBF-BDDCCD615143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work.Domain", "Work.Domain\Work.Domain.csproj", "{DD1EB3C8-027C-4FDD-B429-F2E657E4AED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializerLib", "SerializerLib\SerializerLib.csproj", "{075455E0-3ACF-4C8C-9CC7-6AE321E5F73C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5AB2E35-3BA7-4D83-BFBF-BDDCCD615143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AB2E35-3BA7-4D83-BFBF-BDDCCD615143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AB2E35-3BA7-4D83-BFBF-BDDCCD615143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AB2E35-3BA7-4D83-BFBF-BDDCCD615143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1EB3C8-027C-4FDD-B429-F2E657E4AED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1EB3C8-027C-4FDD-B429-F2E657E4AED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1EB3C8-027C-4FDD-B429-F2E657E4AED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1EB3C8-027C-4FDD-B429-F2E657E4AED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075455E0-3ACF-4C8C-9CC7-6AE321E5F73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075455E0-3ACF-4C8C-9CC7-6AE321E5F73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075455E0-3ACF-4C8C-9CC7-6AE321E5F73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075455E0-3ACF-4C8C-9CC7-6AE321E5F73C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

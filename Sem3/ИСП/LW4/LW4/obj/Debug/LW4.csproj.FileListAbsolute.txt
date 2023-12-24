@@ -1,0 +1,7 @@
+C:\Users\sasha\RiderProjects\LW4\LW4\bin\Debug\LW4.exe
+C:\Users\sasha\RiderProjects\LW4\LW4\bin\Debug\LW4.pdb
+C:\Users\sasha\RiderProjects\LW4\LW4\obj\Debug\LW4.csproj.AssemblyReference.cache
+C:\Users\sasha\RiderProjects\LW4\LW4\obj\Debug\LW4.csproj.SuggestedBindingRedirects.cache
+C:\Users\sasha\RiderProjects\LW4\LW4\obj\Debug\LW4.csproj.CoreCompileInputs.cache
+C:\Users\sasha\RiderProjects\LW4\LW4\obj\Debug\LW4.exe
+C:\Users\sasha\RiderProjects\LW4\LW4\obj\Debug\LW4.pdb

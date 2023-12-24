@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFactory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Factory>
+    <FStore>
+      <Name>phones</Name>
+      <Count>200</Count>
+      <Square>12345.5</Square>
+    </FStore>
+    <FName>Name1</FName>
+    <FCategory>1</FCategory>
+  </Factory>
+  <Factory>
+    <FStore>
+      <Name>tv</Name>
+      <Count>100</Count>
+      <Square>876543.2</Square>
+    </FStore>
+    <FName>fsdfgfsd</FName>
+    <FCategory>3</FCategory>
+  </Factory>
+  <Factory>
+    <FStore>
+      <Name>tablet</Name>
+      <Count>150</Count>
+      <Square>564563543.3</Square>
+    </FStore>
+    <FName>dastbts</FName>
+    <FCategory>2</FCategory>
+  </Factory>
+  <Factory>
+    <FStore>
+      <Name>smartphone</Name>
+      <Count>300</Count>
+      <Square>2345.6</Square>
+    </FStore>
+    <FName>hhdf hdgf</FName>
+    <FCategory>11</FCategory>
+  </Factory>
+  <Factory>
+    <FStore>
+      <Name>noteboot</Name>
+      <Count>250</Count>
+      <Square>745564.3</Square>
+    </FStore>
+    <FName>sdfhssvg</FName>
+    <FCategory>17</FCategory>
+  </Factory>
+  <Factory>
+    <FStore>
+      <Name>macs</Name>
+      <Count>278</Count>
+      <Square>6353.3</Square>
+    </FStore>
+    <FName>bsrtsgsfd</FName>
+    <FCategory>51</FCategory>
+  </Factory>
+</ArrayOfFactory>

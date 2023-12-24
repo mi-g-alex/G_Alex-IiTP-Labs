@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFactory>
+  <factory fName="Name1" fCategory="1">
+    <fStore sName="phones" sCount="200" sSquare="12345.5" />
+  </factory>
+  <factory fName="fsdfgfsd" fCategory="3">
+    <fStore sName="tv" sCount="100" sSquare="876543.2" />
+  </factory>
+  <factory fName="dastbts" fCategory="2">
+    <fStore sName="tablet" sCount="150" sSquare="564563543.3" />
+  </factory>
+  <factory fName="hhdf hdgf" fCategory="11">
+    <fStore sName="smartphone" sCount="300" sSquare="2345.6" />
+  </factory>
+  <factory fName="sdfhssvg" fCategory="17">
+    <fStore sName="noteboot" sCount="250" sSquare="745564.3" />
+  </factory>
+  <factory fName="bsrtsgsfd" fCategory="51">
+    <fStore sName="macs" sCount="278" sSquare="6353.3" />
+  </factory>
+</ArrayOfFactory>

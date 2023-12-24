@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "LW8/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/LW8.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LW8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LW8/1.0.0": {
+      "type": "project",
+      "path": "../LW8/LW8.csproj",
+      "msbuildProject": "../LW8/LW8.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "LW8 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sasha\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sasha\\OneDrive - bsuir.by\\Рабочий стол\\study\\ИСП\\LW7\\LW8_Gorgun\\LW8_Gorgun.csproj",
+      "projectName": "LW8_Gorgun",
+      "projectPath": "C:\\Users\\sasha\\OneDrive - bsuir.by\\Рабочий стол\\study\\ИСП\\LW7\\LW8_Gorgun\\LW8_Gorgun.csproj",
+      "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sasha\\OneDrive - bsuir.by\\Рабочий стол\\study\\ИСП\\LW7\\LW8_Gorgun\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\sasha\\OneDrive - bsuir.by\\Рабочий стол\\study\\ИСП\\LW7\\LW8\\LW8.csproj": {
+              "projectPath": "C:\\Users\\sasha\\OneDrive - bsuir.by\\Рабочий стол\\study\\ИСП\\LW7\\LW8\\LW8.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

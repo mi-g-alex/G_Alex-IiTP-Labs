@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "LW5/1.0.0": {
+        "dependencies": {
+          "SerializerLib": "1.0.0",
+          "Work.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LW5.dll": {}
+        }
+      },
+      "SerializerLib/1.0.0": {
+        "dependencies": {
+          "Work.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SerializerLib.dll": {}
+        }
+      },
+      "Work.Domain/1.0.0": {
+        "runtime": {
+          "Work.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LW5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SerializerLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Work.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

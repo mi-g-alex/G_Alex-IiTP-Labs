@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "LW8_Gorgun/1.0.0": {
+        "dependencies": {
+          "LW8": "1.0.0"
+        },
+        "runtime": {
+          "LW8_Gorgun.dll": {}
+        }
+      },
+      "LW8/1.0.0": {
+        "runtime": {
+          "LW8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LW8_Gorgun/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LW8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
