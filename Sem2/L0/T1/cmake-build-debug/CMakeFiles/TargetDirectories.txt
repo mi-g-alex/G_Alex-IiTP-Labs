@@ -1,5 +1,0 @@
-/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/untitled.dir
-/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/untitled_autogen_timestamp_deps.dir
-/home/g_alex/Desktop/Study/OAiP/Labs/Sem2/L0/T1/cmake-build-debug/CMakeFiles/untitled_autogen.dir
