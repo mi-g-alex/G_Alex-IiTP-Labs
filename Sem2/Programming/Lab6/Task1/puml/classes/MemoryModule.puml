@@ -1,0 +1,9 @@
+@startuml
+class MemoryModule <<sealed>> {
+    + Capacity : int <<get>> <<set>>
+    + MemoryType : string <<get>> <<set>>
+    + MemoryModule(capacity:int, memoryType:string, manufacturer:string, model:string, price:double)
+    + <<override>> DisplayInfo() : void
+}
+ComputerComponent <|-- MemoryModule
+@enduml

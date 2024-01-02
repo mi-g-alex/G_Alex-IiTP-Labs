@@ -1,0 +1,11 @@
+@startuml
+abstract class ComputerComponent {
+    # Manufacturer : string <<get>> <<set>>
+    + Model : string <<get>> <<set>>
+    + Price : double <<get>> <<set>>
+    # ComputerComponent(manufacturer:string, model:string, price:double)
+    + {abstract} DisplayInfo() : void
+    + PrintInfo() : void
+    # <<virtual>> PerformDiagnostic() : void
+}
+@enduml

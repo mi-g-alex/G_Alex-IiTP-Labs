@@ -1,0 +1,10 @@
+@startuml
+class GraphicsCard {
+    + Memory : int <<get>> <<set>>
+    + MinimumSystemPower : int <<get>> <<set>>
+    + GraphicsCard(memory:int, minimumSystemPower:int, manufacturer:string, model:string, price:double)
+    + <<override>> DisplayInfo() : void
+    + <<new>> PerformDiagnostic() : void
+}
+ComputerComponent <|-- GraphicsCard
+@enduml

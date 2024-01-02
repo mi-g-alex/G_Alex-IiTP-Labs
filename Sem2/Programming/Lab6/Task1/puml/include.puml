@@ -1,0 +1,13 @@
+@startuml
+!include ././Program.puml
+!include ./classes/ComputerComponent.puml
+!include ./classes/Processor.puml
+!include ./classes/MemoryModule.puml
+!include ./classes/GraphicsCard.puml
+!include ./obj/Debug/net6.0/Task1.GlobalUsings.g.puml
+!include ./obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.puml
+!include ./obj/Debug/net6.0/Task1.AssemblyInfo.puml
+!include ./obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.puml
+!include ./obj/Debug/net7.0/Task1.GlobalUsings.g.puml
+!include ./obj/Debug/net7.0/Task1.AssemblyInfo.puml
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class Processor {
+    + CoreCount : int <<get>> <<set>>
+    + ThreadCount : int <<get>> <<set>>
+    + Processor(coreCount:int, threadCount:int, manufacturer:string, model:string, price:double)
+    + <<override>> DisplayInfo() : void
+    # <<override>> PerformDiagnostic() : void
+}
+ComputerComponent <|-- Processor
+@enduml
