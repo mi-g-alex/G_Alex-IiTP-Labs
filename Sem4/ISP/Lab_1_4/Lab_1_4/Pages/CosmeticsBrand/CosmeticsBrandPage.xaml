@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab_1_4.Pages.CosmeticsBrand.CosmeticsBrandPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Picker x:Name="BrandPicker"
+                    SelectedIndexChanged="BrandPicker_OnSelectedIndexChanged"
+                    Title="Select"
+                    Loaded="BrandPicker_OnLoaded"
+                    ItemDisplayBinding="{Binding Name}" />
+            <CollectionView x:Name="CollectionViewItem" VerticalOptions="FillAndExpand">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border BackgroundColor="Black" Margin="10">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10" />
+                            </Border.StrokeShape>
+                            <Grid Padding="20" RowDefinitions="Auto, Auto">
+                                <Label Text="{Binding Name, StringFormat='Название: {0}'}"
+                                       TextColor="White" Grid.Row="0" />
+                                <Label Text="{Binding Desc, StringFormat='Описание: {0}'}"
+                                       TextColor="White" Grid.Row="1" />
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

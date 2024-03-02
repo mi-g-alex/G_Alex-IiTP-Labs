@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Lab_1_4.Pages.Currencies.CurrenciesPage">
+    <ContentPage.Content>
+
+        <StackLayout Margin="20">
+            <DatePicker x:Name="DatePicker">
+                <DatePicker.Behaviors>
+                    <toolkit:EventToCommandBehavior
+                        EventName="DateSelected"
+                        Command="{Binding DatePickerSelectedCommand}"
+                        CommandParameter="{Binding Source={x:Reference DatePicker}, Path=Date}" />
+                    <toolkit:EventToCommandBehavior
+                        EventName="Loaded"
+                        Command="{Binding DatePickerSelectedCommand}"
+                        CommandParameter="{Binding Source={x:Reference DatePicker}, Path=Date}" />
+                </DatePicker.Behaviors>
+            </DatePicker>
+            <Picker x:Name="FirstPicker" ItemsSource="{Binding Currs}" Title="Select from:">
+                <Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior
+                        EventName="SelectedIndexChanged"
+                        Command="{Binding UpdateFirstSelectedCommand}"
+                        CommandParameter="{Binding Source={x:Reference FirstPicker}, Path=SelectedItem}" />
+                </Picker.Behaviors>
+            </Picker>
+
+            <Picker x:Name="SecondPicker" ItemsSource="{Binding Currs}" Title="Select to:">
+                <Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior
+                        EventName="SelectedIndexChanged"
+                        Command="{Binding UpdateSecondSelectedCommand}"
+                        CommandParameter="{Binding Source={x:Reference SecondPicker}, Path=SelectedItem}" />
+                </Picker.Behaviors>
+            </Picker>
+            <Entry x:Name="EntryText">
+                <Entry.Behaviors>
+                    <toolkit:EventToCommandBehavior
+                        EventName="TextChanged"
+                        Command="{Binding UpdateCourseCommand}"
+                        CommandParameter="{Binding Source={x:Reference EntryText}, Path=Text}"/>
+                </Entry.Behaviors>
+            </Entry>
+            <Label Text="{Binding Result}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
