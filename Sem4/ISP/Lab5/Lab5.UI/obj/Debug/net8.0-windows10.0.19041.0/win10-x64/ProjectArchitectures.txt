@@ -1,0 +1,1 @@
+C:\Users\sasha\Test\Lab5\Lab5.UI\Lab5.UI.csproj;x64

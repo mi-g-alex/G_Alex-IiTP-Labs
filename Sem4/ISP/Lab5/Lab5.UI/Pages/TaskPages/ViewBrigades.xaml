@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:Lab5.Domain.Entities;assembly=Lab5.Domain"
+             xmlns:convertors="clr-namespace:Lab5.UI.ValueConvertors"
+             xmlns:viewModels="using:Lab5.UI.ViewModels"
+             x:Class="Lab5.UI.Pages.TaskPages.ViewBrigades"
+             x:DataType="viewModels:ViewBrigadesViewModel">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior
+            EventName="Appearing"
+            Command="{Binding Path=LoadBrigadesCommand}" />
+        <toolkit:EventToCommandBehavior
+            EventName="Appearing"
+            Command="{Binding Path=UpdateWorksCommand}" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <convertors:RatingToColorValueConvertor x:Key="RatingToColorValueConvertor" />
+        <convertors:ValueToBooleanConvertor x:Key="IsNotNull" />
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Text="Add brigade"
+            Command="{Binding AddBrigadeCommand}" />
+        <ToolbarItem
+            Text="Edit brigade"
+            IsEnabled="{Binding SelectedBrigade, Converter={StaticResource IsNotNull}}"
+            Command="{Binding EditBrigadeCommand}" />
+        <ToolbarItem
+            Text="Delete brigade"
+            IsEnabled="{Binding SelectedBrigade, Converter={StaticResource IsNotNull}}"
+            Command="{Binding DeleteBrigadeCommand}" />
+        <ToolbarItem
+            Text="Add work"
+            IsEnabled="{Binding SelectedBrigade, Converter={StaticResource IsNotNull}}"
+            Command="{Binding AddWorkCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Picker
+                x:Name="PBrigade"
+                ItemsSource="{Binding ListOfBrigades}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding SelectedBrigade}">
+                <Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior
+                        EventName="SelectedIndexChanged"
+                        Command="{Binding UpdateSelectedBrigadeCommand}"
+                        CommandParameter="{Binding Source={x:Reference PBrigade}, Path=SelectedItem}" />
+                </Picker.Behaviors>
+            </Picker>
+
+            <Frame
+                Margin="0, 20, 0, 20"
+                IsVisible="{Binding SelectedBrigade, Converter={StaticResource IsNotNull}}">
+                <VerticalStackLayout
+                    Padding="5"
+                    Spacing="10">
+                    <Label>
+                        <Label.Text>
+                            <Binding Path="SelectedBrigade.WorksType" StringFormat="Тип работ: {0}" />
+                        </Label.Text>
+                    </Label>
+                    <Label>
+                        <Label.Text>
+                            <Binding Path="SelectedBrigade.CompanyName" StringFormat="Компания: {0}" />
+                        </Label.Text>
+                    </Label>
+                </VerticalStackLayout>
+            </Frame>
+
+            <CollectionView
+                VerticalOptions="FillAndExpand"
+                ItemsSource="{Binding ListOfWorks}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="entities:Work">
+                        <VerticalStackLayout>
+                            <Frame Padding="20"
+                                   Margin="0,10,0,10"
+                                   BackgroundColor="{Binding Rating, Converter={StaticResource RatingToColorValueConvertor}}">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Command="{Binding
+                                                Source={RelativeSource
+                                                    AncestorType={x:Type viewModels:ViewBrigadesViewModel}},
+                                                Path=GoToWorkCommand}"
+                                        CommandParameter="{Binding}" />
+                                </Frame.GestureRecognizers>
+                                <HorizontalStackLayout>
+                                    <Image
+                                        Source="{Binding ImageSrc}"
+                                        HeightRequest="50"
+                                        Margin="0, 0, 20, 0" />
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding Name}" />
+                                        <Label Text="{Binding Rating, StringFormat='Рейтинг: {0}'}" />
+                                    </VerticalStackLayout>
+                                </HorizontalStackLayout>
+                            </Frame>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

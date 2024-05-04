@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:convertors="clr-namespace:Lab5.UI.ValueConvertors"
+             xmlns:viewModels="using:Lab5.UI.ViewModels"
+             x:DataType="viewModels:ViewWorkViewModel"
+             x:Class="Lab5.UI.Pages.TaskPages.ViewWork">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding GetWorkByIdCommand}" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <convertors:DateToStringConvertor x:Key="Date" />
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Edit work" Command="{Binding EditWorkCommand}" />
+        <ToolbarItem Text="Delete work" Command="{Binding DeleteWorkCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <Frame Padding="10" Margin="20">
+                <HorizontalStackLayout>
+                    <Image
+                        Source="{Binding ImageSrc}"
+                        HeightRequest="100"
+                        Margin="0, 0, 20, 0" />
+                    <VerticalStackLayout>
+                        <Label Text="{Binding Name}" />
+                        <Label Text="{Binding Rating, StringFormat='Rating: {0}'}" />
+                        <Label Text="{Binding StartDate, Converter={StaticResource Date}, StringFormat='Start  {0}'}" />
+                        <Label Text="{Binding EndDate, Converter={StaticResource Date}, StringFormat='End {0}'}" />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Lab_1_4
+build_property.ProjectDir = C:\Users\sasha\ForGit\G_Alex-IiTP-Labs\Sem4\ISP\Lab_1_4\Lab_1_4\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/sasha/ForGit/G_Alex-IiTP-Labs/Sem4/ISP/Lab_1_4/Lab_1_4/Pages/Calculator/CalculatorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.ManifestResourceName = Lab_1_4.Pages.Calculator.CalculatorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Pages\Calculator\CalculatorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.RelativePath = Pages\Calculator\CalculatorPage.xaml
+
+[C:/Users/sasha/ForGit/G_Alex-IiTP-Labs/Sem4/ISP/Lab_1_4/Lab_1_4/Pages/CosmeticsBrand/CosmeticsBrandPage.xaml]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.ManifestResourceName = Lab_1_4.Pages.CosmeticsBrand.CosmeticsBrandPage.xaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Pages\CosmeticsBrand\CosmeticsBrandPage.xaml
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.RelativePath = Pages\CosmeticsBrand\CosmeticsBrandPage.xaml
+
+[C:/Users/sasha/ForGit/G_Alex-IiTP-Labs/Sem4/ISP/Lab_1_4/Lab_1_4/Pages/ProgressBar/ProgressBarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.ManifestResourceName = Lab_1_4.Pages.ProgressBar.ProgressBarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Pages\ProgressBar\ProgressBarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.RelativePath = Pages\ProgressBar\ProgressBarPage.xaml
+
+[C:/Users/sasha/ForGit/G_Alex-IiTP-Labs/Sem4/ISP/Lab_1_4/Lab_1_4/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lab_1_4.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/sasha/ForGit/G_Alex-IiTP-Labs/Sem4/ISP/Lab_1_4/Lab_1_4/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lab_1_4.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/sasha/ForGit/G_Alex-IiTP-Labs/Sem4/ISP/Lab_1_4/Lab_1_4/Pages/Currencies/CurrenciesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lab_1_4.Pages.Currencies.CurrenciesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Currencies\CurrenciesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Currencies\CurrenciesPage.xaml
+
+[C:/Users/sasha/ForGit/G_Alex-IiTP-Labs/Sem4/ISP/Lab_1_4/Lab_1_4/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lab_1_4.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/sasha/ForGit/G_Alex-IiTP-Labs/Sem4/ISP/Lab_1_4/Lab_1_4/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Lab_1_4.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

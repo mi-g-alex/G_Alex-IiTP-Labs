@@ -1,0 +1,15 @@
+C:\Users\sasha\Test\Lab5\Lab5.Application\bin\Debug\net8.0\Lab5.Application.deps.json
+C:\Users\sasha\Test\Lab5\Lab5.Application\bin\Debug\net8.0\Lab5.Application.dll
+C:\Users\sasha\Test\Lab5\Lab5.Application\bin\Debug\net8.0\Lab5.Application.pdb
+C:\Users\sasha\Test\Lab5\Lab5.Application\bin\Debug\net8.0\Lab5.Domain.dll
+C:\Users\sasha\Test\Lab5\Lab5.Application\bin\Debug\net8.0\Lab5.Domain.pdb
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\Lab5.Application.csproj.AssemblyReference.cache
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\Lab5.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\Lab5.Application.AssemblyInfoInputs.cache
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\Lab5.Application.AssemblyInfo.cs
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\Lab5.Application.csproj.CoreCompileInputs.cache
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\Lab5.App.C59FAB00.Up2Date
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\Lab5.Application.dll
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\refint\Lab5.Application.dll
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\Lab5.Application.pdb
+C:\Users\sasha\Test\Lab5\Lab5.Application\obj\Debug\net8.0\ref\Lab5.Application.dll

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="using:Lab5.UI.ViewModels"
+             xmlns:convertors="clr-namespace:Lab5.UI.ValueConvertors"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="viewModels:AddOrEditWorkViewModel"
+             x:Class="Lab5.UI.Pages.TaskPages.AddOrEditWork">
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Command="{Binding AddOrEditWorkCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <convertors:IntDoubleConvertor x:Key="IntDouble" />
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <Frame Margin="10" Padding="5">
+                <VerticalStackLayout>
+                        <Button
+                            Margin="0, 20, 0, 20"
+                            Text="Select Image"
+                            Command="{Binding Path=SelectImageCommand}" />
+                    <Image
+                        Source="{Binding ImageSrc}"
+                        HeightRequest="200">
+
+                    </Image>
+                    <Label Text="Name" />
+                    <Entry Placeholder="Name" Text="{Binding Path='Name'}" />
+                    <Label Text="Start date" />
+                    <DatePicker Date="{Binding Path='StartDate'}" />
+                    <Label Text="End date" />
+                    <DatePicker Date="{Binding Path='EndDate'}" />
+                    <Label Text="{Binding Path='Rating', StringFormat='Rating: {0}'}" />
+                    <Stepper
+                        x:Name="Stepper"
+                        Minimum="0"
+                        Maximum="10"
+                        Value="{Binding Path='Rating'}">
+                        <Stepper.Behaviors>
+                            <toolkit:EventToCommandBehavior
+                                EventName="ValueChanged"
+                                Command="{Binding UpdateRatingCommand}"
+                                CommandParameter="{Binding Source={x:Reference Stepper}, Path=Value}" />
+                        </Stepper.Behaviors>
+                    </Stepper>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Shell
+    x:Class="Lab5.UI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Lab5.UI"
+    xmlns:mainPage="using:Lab5.UI.Pages.MainPage"
+    xmlns:taskPages="using:Lab5.UI.Pages.TaskPages"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Lab5.UI">
+
+    <ShellContent
+        Title="Task"
+        ContentTemplate="{DataTemplate taskPages:ViewBrigades}"
+        Route="TaskPage"
+        FlyoutIcon="home.png" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate mainPage:MainPage}"
+        Route="MainPage"
+        FlyoutIcon="task.png" />
+
+</Shell>

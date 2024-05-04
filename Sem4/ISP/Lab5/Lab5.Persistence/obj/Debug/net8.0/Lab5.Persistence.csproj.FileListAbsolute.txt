@@ -1,0 +1,15 @@
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\bin\Debug\net8.0\Lab5.Persistence.deps.json
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\bin\Debug\net8.0\Lab5.Persistence.dll
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\bin\Debug\net8.0\Lab5.Persistence.pdb
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\bin\Debug\net8.0\Lab5.Domain.dll
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\bin\Debug\net8.0\Lab5.Domain.pdb
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\Lab5.Persistence.csproj.AssemblyReference.cache
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\Lab5.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\Lab5.Persistence.AssemblyInfoInputs.cache
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\Lab5.Persistence.AssemblyInfo.cs
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\Lab5.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\Lab5.Per.8AA0664A.Up2Date
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\Lab5.Persistence.dll
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\refint\Lab5.Persistence.dll
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\Lab5.Persistence.pdb
+C:\Users\sasha\Test\Lab5\Lab5.Persistence\obj\Debug\net8.0\ref\Lab5.Persistence.dll

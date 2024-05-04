@@ -1,0 +1,314 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sasha\\Test\\Lab5\\Lab5.UI\\Lab5.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Application\\Lab5.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Application\\Lab5.Application.csproj",
+        "projectName": "Lab5.Application",
+        "projectPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Application\\Lab5.Application.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\Lab5.Domain.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\Lab5.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\Lab5.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\Lab5.Domain.csproj",
+        "projectName": "Lab5.Domain",
+        "projectPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\Lab5.Domain.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Persistence\\Lab5.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Persistence\\Lab5.Persistence.csproj",
+        "projectName": "Lab5.Persistence",
+        "projectPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Persistence\\Lab5.Persistence.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\Lab5.Domain.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\Lab5.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasha\\Test\\Lab5\\Lab5.UI\\Lab5.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.UI\\Lab5.UI.csproj",
+        "projectName": "Lab5.UI",
+        "projectPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.UI\\Lab5.UI.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.19041": {
+            "targetAlias": "net8.0-windows10.0.19041.0",
+            "projectReferences": {
+              "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Application\\Lab5.Application.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Application\\Lab5.Application.csproj"
+              },
+              "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\Lab5.Domain.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Domain\\Lab5.Domain.csproj"
+              },
+              "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Persistence\\Lab5.Persistence.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Test\\Lab5\\Lab5.Persistence\\Lab5.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "CommunityToolkit.Maui.Core": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.31, 10.0.19041.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
