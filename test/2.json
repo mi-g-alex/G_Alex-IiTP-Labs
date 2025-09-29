@@ -1,0 +1,15 @@
+{
+  "name": "galexsecondtoken",
+  "symbol": "G-Token-2",
+  "description": "G_Alex's token",
+  "image": "https://1k.by/images/site/imagespage/news/20210914/p583fec02e.jpg",
+  "properties": {
+    "files": [
+      {
+        "uri": "https://1k.by/images/site/imagespage/news/20210914/p583fec02e.jpg",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
